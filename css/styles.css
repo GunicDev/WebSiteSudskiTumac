@@ -1,0 +1,193 @@
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  cursor: default;
+}
+
+p {
+  color: #4B4B6B;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-left: 20%;
+  padding-top: 4.5rem;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+  
+
+}
+.container-mid{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center
+  }
+
+.img{
+  max-width: 100%;
+  max-height:100%;
+  border-radius: 15%;
+}
+
+.text{
+  font-size: 20px;
+  padding-left: 20px;
+  cursor: default;
+}
+
+/* Sections */
+/* link slike = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROPywTsQJGjXnmYE0GdPs6ShQSAWnkduXW_g&usqp=CAU */
+.colored-section-image{
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROPywTsQJGjXnmYE0GdPs6ShQSAWnkduXW_g&usqp=CAU");
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.colored-section {
+  background-color: #3C6175;
+  color: #fff;
+  font-size: 1.8rem;
+  border: 1px splid;
+ 
+}
+
+.white-section {
+  background-color: #9DB5C2;
+  font-size: 1.8rem;
+  color: #3C6175;
+  border: 1px solid;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+  }
+ 
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9DB5C2;
+    }
+
+:hover.navbar-brand{
+  text-decoration: underline;
+  color:#fff
+}
+
+.nav-item {
+  padding: 0 18px;
+  
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+  color: #9DB5C2;
+ }
+
+
+:hover.nav-link {
+text-decoration: underline;
+color: #fff;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 3% 15%;
+  color: #9DB5C2;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #fff;
+  color: #4B4B6B;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+/* About Section */
+
+#about {
+  position: relative;
+  
+}
+
+.box {
+  padding: 4.5%;
+  }
+
+
+
+/* Biography Section */
+
+
+
+/* Contact Section    */
+
+#contact {
+  text-align: center;
+}
+
+
+/* Footer Section */
+.footer-box {
+  padding: 0;
+  margin: 0;
+  background-color: #3C6175;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+.social-icon:hover{
+  color: black;
+}
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .img {
+    position: static;
+    transform: rotate(0);
+  }
+  .container-mid{
+    display: inline-block;
+  }
+}
+
+/* Social icon section */
